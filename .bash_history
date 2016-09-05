@@ -99,3 +99,67 @@ ls
 rackup -s webrick -p 9000
 cd dissaperf/
 rackup -s webrick -p 9000
+ls
+cat fivepumaslow 
+ls
+sudo bash
+echo "# Stats" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mtheobaldo/Stats.git
+git push -u origin mastergit config --global user.email d00241719@dmail.dixie.edu
+git config --global user.email d00241719@dmail.dixie.edu
+git config --global user.name Mtheobaldo
+echo "# Stats" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mtheobaldo/Stats.git
+git push -u origin master
+ls
+git add .
+giet commit -m "all my stats"
+git commit -m "all my stats"
+git push
+ls
+ll
+ls
+cd dissaperf/
+puma -p 9000 1:1
+rackup puma -p 9000 1:1
+puma -p 9000 -t 1:1
+ab -n 100 -c 10 -e singlepuma1http://0.0.0.0:9000/
+ab -n 100 -c 10 -e singlepuma1 http://0.0.0.0:9000/
+cat singlepuma1
+ab -n 100 -c 2 -p data/small.json -T 'application/json  -e smallSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p data/small.json -T 'application/json'  -e smallSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/small.json -T 'application/json'  -e smallSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/large.json -T 'application/json'  -e smallSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/small.json -T 'application/json'  -e smallSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/large.json -T 'application/json'  -e largeSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/ginormous.json -T 'application/json'  -e ginormousSinglePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/small.json -T 'application/json'  -e small5puma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/large.json -T 'application/json'  -e large5puma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/ginormous.json -T 'application/json'  -e ginormous5puma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/small.json -T 'application/json'  -e smallWEBrick.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/large.json -T 'application/json'  -e largeWEBrick.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/ginormous.json -T 'application/json'  -e ginormousWEBrick.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/small.json -T 'application/json'  -e smallPuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/large.json -T 'application/json'  -e largePuma.csv http://0.0.0.0:9000/
+ab -n 100 -c 2 -p dissaperf/data/ginormous.json -T 'application/json'  -e ginormousPuma.csv http://0.0.0.0:9000/
+cd dissaperf/
+rackup -s webrick -p 9000
+puma -p 9000 -t 1:1
+ps
+ps aux
+ps aux | grep 9000
+kill9 13287
+kill 13287
+sudo kill 13287
+puma -p 9000 -t 1:1
+puma -p 9000 -t 5:5
+rackup -s webrick -p 9000
+rackup -s puma -p 9000
+ls
+sudo bash
